@@ -19,6 +19,23 @@ export class AlunosComponent implements OnInit {
     this.listarAlunos()
   }
 
+  atualizar(id: number){
+    this.alunosService.atualizarAluno(id, this.aluno).subscribe(aluno => {
+      this.aluno = new Aluno
+      this.listarAlunos()
+     },
+    ), err => { console.log('Erro ao cadastrar aluno', err)}
+  
+  }
+
+  remover(id: number){
+    this.alunosService.removerAluno(id).subscribe(aluno => {
+      this.aluno = new Aluno
+      this.listarAlunos()
+     },
+    ), err => { console.log('Erro ao cadastrar aluno', err)}
+  }
+
   cadastrar(){
     console.log(this.aluno)
     this.alunosService.cadastrarAluno(this.aluno).subscribe(aluno => {

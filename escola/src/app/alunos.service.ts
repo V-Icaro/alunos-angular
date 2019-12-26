@@ -18,4 +18,12 @@ export class AlunosService {
   listarAlunos() : Observable<any>{
     return this.http.get("http://localhost:3000/alunos/")
   }
+
+  atualizarAluno(id: any, aluno: Aluno) : Observable<any>{
+    return this.http.put("http://localhost:3000/alunos/".concat(id), aluno)
+  }
+
+  removerAluno(id: any){
+    return this.http.delete("http://localhost:3000/alunos/".concat(id))
+  }
 }
