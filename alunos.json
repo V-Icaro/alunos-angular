@@ -1,29 +1,44 @@
 {
-    "alunos": [
-        {
-            "id": 1,
-            "nome": "Emanuelle",
-            "idade": 25
-        },
-        {
-            "id": 2,
-            "nome": "Rebeca",
-            "idade": 22
-        },
-        {
-            "id": 3,
-            "nome": "Liana",
-            "idade": 25
-        },
-        {
-            "id": 4,
-            "nome": "Alice",
-            "idade": 25
-        },
-        {
-            "id": 5,
-            "nome": "Bea",
-            "idade": 25
-        }
-    ]
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Emanuelle",
+      "idade": 25
+    },
+    {
+      "id": 2,
+      "nome": "Rebeca",
+      "idade": 22
+    },
+    {
+      "id": 3,
+      "nome": "Liana",
+      "idade": 25
+    },
+    {
+      "id": 4,
+      "nome": "Alice",
+      "idade": 25
+    },
+    {
+      "id": 5,
+      "nome": "Bea",
+      "idade": 25
+    },
+    {
+      "nome": "Leticia",
+      "idade": "20",
+      "id": 6
+    },
+    {
+      "nome": "Gleici",
+      "idade": "17",
+      "id": 7
+    },
+    {
+      "nome": "Vitória",
+      "idade": "19",
+      "id": 8
+    }
+  ]
 }
